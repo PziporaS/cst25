@@ -8,11 +8,17 @@
     background-color: #DDD8C4;
   }
 
-#input {
-  width: 300px;
-  padding: 8px;
+#output {
+  border: solid 1px #888;
+  column-count: 4;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.text p {
+  margin: 0;
 }
 
 #button {
-  padding: 8px;
+  margin-top: 10px;
 }
