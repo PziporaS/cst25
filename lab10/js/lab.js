@@ -28,3 +28,13 @@ $("#make-convo").click(function(){
   // append a new div to our output div
   $("#output").append('<div class="text"><p>' + newText + '</p></div>');
 });
+
+// click listener for button
+$("#submit").click(function(){
+  // get value of input field
+  const userReply = $("#user-reply").val();
+  console.log(userReply);
+
+  // append a new div to our output div
+  $("#output").append('<div class="text"><p>' + userReply + '</p></div>');
+});

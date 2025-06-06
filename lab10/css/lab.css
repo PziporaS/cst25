@@ -20,10 +20,6 @@
   font-size: 0.8em;
 }
 
-#output .text:nth-child(odd) {
-    text-align: left;   
-}
-
 #output .text:nth-child(even) {
     text-align: right;   
 }
