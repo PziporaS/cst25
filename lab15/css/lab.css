@@ -10,7 +10,6 @@
 
 #output {
   border: solid 1px #888;
-  column-count: 4;
   padding: 10px;
   margin-top: 10px;
 }
